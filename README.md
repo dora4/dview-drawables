@@ -2,6 +2,9 @@ dview-drawables
 ![Release](https://jitpack.io/v/dora4/dview-drawables.svg)
 --------------------------------
 
+#### 卡片
+![镇殿之宝——裁决铠甲](https://github.com/user-attachments/assets/4b2d04ec-0f17-4ae5-a194-d9f77af8061f)
+
 #### Gradle依赖配置
 
 ```groovy
