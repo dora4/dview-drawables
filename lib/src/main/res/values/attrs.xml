@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-
+    <declare-styleable name="ShapeView">
+        <!-- 形状类型 -->
+        <attr name="dview_shapeType" format="enum">
+            <enum name="rectangle" value="0"/>
+            <enum name="oval" value="1"/>
+            <enum name="triangle" value="2"/>
+            <enum name="star" value="3"/>
+            <enum name="hexagon" value="4"/>
+            <enum name="sector" value="5"/>
+            <enum name="heart" value="6"/>
+            <enum name="arc" value="7"/>
+        </attr>
+        <!-- 填充颜色 -->
+        <attr name="dview_shapeColor" format="color"/>
+        <!-- 是否描边 -->
+        <attr name="dview_isStroke" format="boolean"/>
+        <!-- 描边宽度 -->
+        <attr name="dview_strokeWidth" format="dimension"/>
+        <!-- 圆角半径 (只对 rectangle 生效) -->
+        <attr name="dview_cornerRadius" format="dimension"/>
+    </declare-styleable>
 </resources>
